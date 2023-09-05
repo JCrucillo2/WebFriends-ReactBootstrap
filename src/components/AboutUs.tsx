@@ -24,7 +24,7 @@ const AboutUs = () => {
 						<h3>How We Got Started</h3>
 						<p>Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
 						<p>Proactively envisioned multimedia based expertise and cross-media growth strategies. Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.</p>
-						<Button variant="success" href="#team">
+						<Button variant="secondary" href="#team">
 							Meet The Team
 						</Button>
 					</Col>

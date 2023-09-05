@@ -13,7 +13,7 @@ const Appbar = () => {
 
 					<Navbar.Collapse id="nav-options">
 						<Nav className="ms-auto">
-							<Nav.Link href="#">Home</Nav.Link>
+							<Nav.Link href="/">Home</Nav.Link>
 							<Nav.Link href="#aboutUs">About</Nav.Link>
 							<Nav.Link href="#team">Team</Nav.Link>
 							<Nav.Link href="#services">Services</Nav.Link>
