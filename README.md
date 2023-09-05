@@ -14,4 +14,6 @@ As a class, we initially did this project with only HTML and Bootstrap 4 CDN whi
 - react-icons
 - Google Fonts (Poppins)
 
-## Site Images
+## Site Image
+
+![Screenshot 2023-09-05 at 04-56-48 WebFriends](https://github.com/JCrucillo2/WebFriends-ReactBootstrap/assets/71023403/7ce7c7f1-b4e0-48dd-a12b-6f7427e1ab98)
