@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import Button from "react-bootstrap/Button";
 import { BsEye } from "react-icons/bs";
 import { PiClockCountdown } from "react-icons/pi";
 import { HiSun } from "react-icons/hi2";
@@ -14,7 +15,7 @@ const Services = () => {
 					<u>Our Services</u>
 				</h3>
 
-				<Row>
+				<Row className="mb-5">
 					<Col sm={6} md={3}>
 						<div className="d-flex align-items-center mb-3">
 							<div className="text-primary">
@@ -55,6 +56,10 @@ const Services = () => {
 						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione aliquid iusto adipisci excepturi dolore necessitatibus? Deleniti sed optio earum cum corrupti id, sunt vitae, et quia quas, obcaecati vero ratione.</p>
 					</Col>
 				</Row>
+
+				<div className="text-center">
+					<Button variant="secondary">Learn More</Button>
+				</div>
 			</Container>
 		</section>
 	);

@@ -7,10 +7,10 @@ import Button from "react-bootstrap/Button";
 
 const AboutUs = () => {
 	return (
-		<section id="aboutUs" className="py-5">
-			<Container>
+		<section id="aboutUs">
+			<Container className="py-5">
 				<div className="text-center mb-5">
-					<h2 className="text-uppercase font-weight-regular text-primary py-4 underline">
+					<h2 className="text-uppercase font-weight-regular text-primary mb-5">
 						<u>About Us</u>
 					</h2>
 					<p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
