@@ -5,22 +5,25 @@ import Navbar from "react-bootstrap/Navbar";
 
 const Appbar = () => {
 	return (
-		<section>
+		<header>
 			<Navbar expand="lg" bg="dark" data-bs-theme="dark" fixed="top">
 				<Container>
-					<Navbar.Brand href="#home">WebFriends</Navbar.Brand>
+					<Navbar.Brand href="#">WebFriends</Navbar.Brand>
 					<Navbar.Toggle aria-controls="nav-options" />
 
 					<Navbar.Collapse id="nav-options">
 						<Nav className="ms-auto">
-							<Nav.Link href="#home">Home</Nav.Link>
+							<Nav.Link href="#">Home</Nav.Link>
 							<Nav.Link href="#aboutUs">About</Nav.Link>
+							<Nav.Link href="#team">Team</Nav.Link>
+							<Nav.Link href="#services">Services</Nav.Link>
+							<Nav.Link href="#pricing">Pricing</Nav.Link>
 							<Nav.Link href="#contact">Contact</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>
 			</Navbar>
-		</section>
+		</header>
 	);
 };
 export default Appbar;

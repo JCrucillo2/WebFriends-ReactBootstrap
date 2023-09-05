@@ -14,7 +14,9 @@ const FrontCarousel = () => {
 					<Carousel.Caption>
 						<h3>The best choice for for your startup</h3>
 						<p>Design and style should work towards making you look good and feel good</p>
-						<Button variant="light">Choose Package</Button>
+						<Button variant="light" href="#pricing">
+							Choose Package
+						</Button>
 					</Carousel.Caption>
 				</Carousel.Item>
 
@@ -30,7 +32,9 @@ const FrontCarousel = () => {
 					<Image src={Image3} alt="water" className="w-100" />
 					<Carousel.Caption>
 						<h3>Created to make business easy</h3>
-						<Button variant="light">Contact Us</Button>
+						<Button variant="light" href="#contact">
+							Contact Us
+						</Button>
 					</Carousel.Caption>
 				</Carousel.Item>
 			</Carousel>
